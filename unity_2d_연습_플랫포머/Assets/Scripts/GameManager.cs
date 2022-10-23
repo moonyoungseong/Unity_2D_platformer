@@ -35,7 +35,7 @@ public class GameManager : MonoBehaviour
         }
         else{ // Game Clear
             Time.timeScale = 0;
-            Debug.Log("게임 클리어");
+            Debug.Log("클리어");
             Text btnText = UIRestartBtn.GetComponentInChildren<Text>();
             btnText.text = "Game Clear!";
             UIRestartBtn.SetActive(true);
